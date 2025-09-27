@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 236,
+    "build": 241,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -218,13 +218,696 @@
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "22587a26-75d6-44e6-bcbc-60d677beba80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "22587a26-75d6-44e6-bcbc-60d677beba80.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "e1535416-6cfb-41de-9c82-a2aa91e42627.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e1535416-6cfb-41de-9c82-a2aa91e42627.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Blue Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1ffd07cb739df2a909155dd3057f6def46b833ced6ef1a09527b6ea59e88e464_Blue Button_Hovered.png",
+          "name": "Blue Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Blue Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/eeac55458b66fb84f756b38085fbf7d1e079c39363c942abd35ea9d0939465ce_Blue Button_Idle.png",
+          "name": "Blue Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Blue Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f0ede8843d544f6e84bc09299a8aabffbce558966f25af98f7b47ab1648217ce_Blue Button_Pressed.png",
+          "name": "Blue Button_Pressed.png"
+        }
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Player1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "MultiplayerObject",
+          "type": "Multiplayer::MultiplayerObjectBehavior",
+          "playerNumber": 1,
+          "actionOnPlayerDisconnect": "DestroyObject"
+        },
+        {
+          "gravity": 800,
+          "jumpSustainTime": 0.4,
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Right3",
+                  "points": [
+                    {
+                      "name": "NameTag",
+                      "x": 16,
+                      "y": -8.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Right2",
+                  "points": [
+                    {
+                      "name": "NameTag",
+                      "x": 16,
+                      "y": -8.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Player2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "MultiplayerObject",
+          "type": "Multiplayer::MultiplayerObjectBehavior",
+          "playerNumber": 2,
+          "actionOnPlayerDisconnect": "DestroyObject"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Right4",
+                  "points": [
+                    {
+                      "name": "NameTag",
+                      "x": 16,
+                      "y": -9
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left",
+                  "points": [
+                    {
+                      "name": "NameTag",
+                      "x": 16,
+                      "y": -9
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Player3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "MultiplayerObject",
+          "type": "Multiplayer::MultiplayerObjectBehavior",
+          "playerNumber": 3,
+          "actionOnPlayerDisconnect": "DestroyObject"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [
+                    {
+                      "name": "NameTag",
+                      "x": 16.5,
+                      "y": -10.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left2",
+                  "points": [
+                    {
+                      "name": "NameTag",
+                      "x": 16.5,
+                      "y": -10.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Player4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "MultiplayerObject",
+          "type": "Multiplayer::MultiplayerObjectBehavior",
+          "playerNumber": 4,
+          "actionOnPlayerDisconnect": "DestroyObject"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [
+                    {
+                      "name": "NameTag",
+                      "x": 16.5,
+                      "y": -11
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite5",
+                  "points": [
+                    {
+                      "name": "NameTag",
+                      "x": 16.5,
+                      "y": -11
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Player1"
+      },
+      {
+        "objectName": "Player2"
+      },
+      {
+        "objectName": "Player3"
+      },
+      {
+        "objectName": "Player4"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [],
@@ -249,7 +932,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.4633111824513976,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -257,16 +940,101 @@
       "instances": [
         {
           "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 816,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FundoLobby",
+          "persistentUuid": "afa9c448-a870-4de0-8e53-c1b3643b7bcb",
+          "width": 1296,
+          "x": -9,
+          "y": -72,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "LobbyButton",
-          "persistentUuid": "c6e021a5-4d16-4bc5-b29d-cba026b20397",
+          "persistentUuid": "33d8cf18-d5e9-4c26-8acd-4cd0ea4cafc7",
           "width": 0,
-          "x": 497,
-          "y": 498,
-          "zOrder": 1,
+          "x": 508,
+          "y": 51,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player1",
+          "persistentUuid": "8eb50576-bf05-4297-9e5f-28e46439c0b8",
+          "width": 105,
+          "x": 146,
+          "y": 537,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player2",
+          "persistentUuid": "e1b190b8-8226-4f89-81e3-6c0126407ff0",
+          "width": 105,
+          "x": 308,
+          "y": 483,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player3",
+          "persistentUuid": "8f19ae20-b7f6-424b-937d-4184938608a1",
+          "width": 105,
+          "x": 871,
+          "y": 486,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player4",
+          "persistentUuid": "379293da-99ad-4a45-b857-8d8f9dc41140",
+          "width": 105,
+          "x": 1029,
+          "y": 540,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -274,10 +1042,70 @@
       ],
       "objects": [
         {
-          "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FundoLobby",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "e1535416-6cfb-41de-9c82-a2aa91e42627.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
           "name": "LobbyButton",
           "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "Red Button",
+          "variant": "Blue Button",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -297,6 +1125,9 @@
         "children": [
           {
             "objectName": "LobbyButton"
+          },
+          {
+            "objectName": "FundoLobby"
           }
         ]
       },
@@ -443,6 +1274,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -451,12 +1286,24 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "MultiplayerObject",
+          "type": "Multiplayer::MultiplayerObjectBehavior"
+        },
+        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     },
@@ -480,7 +1327,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749988867,
+        "zoomFactor": 0.584378441074094,
         "windowMask": false
       },
       "objectsGroups": [
@@ -489,6 +1336,15 @@
           "objects": [
             {
               "name": "Player1"
+            },
+            {
+              "name": "Player2"
+            },
+            {
+              "name": "Player3"
+            },
+            {
+              "name": "Player4"
             }
           ]
         }
@@ -498,15 +1354,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2.8571428571428568,
-          "height": 100,
+          "depth": 0.7894736842105263,
+          "height": 30,
           "keepRatio": true,
           "layer": "",
           "name": "Player1",
           "persistentUuid": "536b80cf-e812-41f5-ac66-d391f65a000e",
-          "width": 100,
-          "x": 341,
-          "y": 591,
+          "width": 30,
+          "x": 368,
+          "y": 660,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -532,15 +1388,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 3.333333333333333,
-          "height": 100,
+          "depth": 0.9999999999999999,
+          "height": 30,
           "keepRatio": true,
           "layer": "",
           "name": "Player2",
           "persistentUuid": "75d278a5-662b-420d-a80c-fed2b3b8fabe",
-          "width": 100,
-          "x": 464,
-          "y": 591,
+          "width": 30,
+          "x": 458,
+          "y": 660,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -549,15 +1405,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2.9761904761904754,
-          "height": 100,
+          "depth": 0.8928571428571425,
+          "height": 30,
           "keepRatio": true,
           "layer": "",
           "name": "Player3",
           "persistentUuid": "e8dc62bb-3735-4a94-9f35-576af16aa6b1",
-          "width": 100,
-          "x": 590,
-          "y": 595,
+          "width": 30,
+          "x": 771,
+          "y": 660,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -566,15 +1422,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 3.289473684210526,
-          "height": 100,
+          "depth": 0.9868421052631577,
+          "height": 30,
           "keepRatio": true,
           "layer": "",
           "name": "Player4",
           "persistentUuid": "cf82d129-82df-4517-a690-86364dc0e9d5",
-          "width": 100,
-          "x": 734,
-          "y": 600,
+          "width": 30,
+          "x": 845,
+          "y": 660,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -583,49 +1439,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 3,
-          "height": 129,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Floor",
-          "persistentUuid": "7aeb87ca-4106-4746-8304-3ab6e87dddfb",
-          "width": 206,
-          "x": 1067,
-          "y": 569,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 3,
-          "height": 128,
+          "depth": 2,
+          "height": 71,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
           "persistentUuid": "91ea3b94-d141-4425-aa8c-ee1b346dd089",
-          "width": 230,
-          "x": 14,
-          "y": 565,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 3,
-          "height": 59,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Floor",
-          "persistentUuid": "037d1757-30fb-4e50-a91e-6b8650237673",
-          "width": 131,
-          "x": 920,
-          "y": 631,
+          "width": 166,
+          "x": 564,
+          "y": 619,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -640,8 +1462,8 @@
           "name": "Player1NameTag",
           "persistentUuid": "7577fae9-fbeb-4703-a58a-6c74dcd07ad2",
           "width": 0,
-          "x": 335,
-          "y": 485,
+          "x": -245,
+          "y": 217,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -656,8 +1478,8 @@
           "name": "Player2NameTag",
           "persistentUuid": "e0883f6d-5712-441b-ab29-ba5994fd2afe",
           "width": 0,
-          "x": 419,
-          "y": 421,
+          "x": -263,
+          "y": 267,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -672,8 +1494,8 @@
           "name": "Player3NameTag",
           "persistentUuid": "55a3e62c-765e-495d-ab44-2089352c4bf6",
           "width": 0,
-          "x": 522,
-          "y": 365,
+          "x": -274,
+          "y": 319,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -688,9 +1510,364 @@
           "name": "Player4NameTag",
           "persistentUuid": "c02fd064-7996-4568-97a8-d34bcd01a62d",
           "width": 0,
-          "x": 642,
-          "y": 334,
+          "x": -293,
+          "y": 384,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mensageiro",
+          "persistentUuid": "dabdd119-4f88-427f-9899-2a23d545b3cc",
+          "width": 0,
+          "x": -290,
+          "y": -32,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Números",
+          "persistentUuid": "8c384fff-fadc-4b60-859f-94e0153580e8",
+          "width": 0,
+          "x": -274,
+          "y": -131,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "bdf9cf8e-2c8a-4262-8d3a-315860947485",
+          "width": 254,
+          "x": 75,
+          "y": 577,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "4a3d1720-5bb6-4233-a8d6-27639772ecf4",
+          "width": 254,
+          "x": 976,
+          "y": 577,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "0fc999c4-ea2a-4d4c-858a-b2d6e53941a1",
+          "width": 254,
+          "x": 520,
+          "y": 496,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "9b150691-56d6-4495-ada3-38b49f5f688e",
+          "width": 124,
+          "x": 144,
+          "y": 377,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "62e198e7-d216-4154-9d04-11c212803115",
+          "width": 124,
+          "x": 1021,
+          "y": 377,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "806c184c-a70e-4451-8810-472adde76273",
+          "width": 124,
+          "x": 388,
+          "y": 270,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "71a93da6-049c-4355-a176-bad4f5213ecf",
+          "width": 124,
+          "x": 755,
+          "y": 270,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "27a9367b-9b73-4d04-8fce-a5cb8b0dee5f",
+          "width": 343,
+          "x": 459,
+          "y": 120,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "d08d8c27-23e8-4495-a47e-d7bb89bbc192",
+          "width": 124,
+          "x": 1062,
+          "y": 120,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "d2e34063-2a41-4d64-96d3-7c30927bdde0",
+          "width": 124,
+          "x": 135,
+          "y": 120,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "c75e12bc-39b1-49bd-85c2-df6e0cef4178",
+          "width": 54,
+          "x": 979,
+          "y": 546,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "511223a6-fddd-46db-8be4-5dfd012da8c9",
+          "width": 54,
+          "x": 276,
+          "y": 545,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "7a6b72bc-5693-4286-9e89-ee9cfd219c77",
+          "width": 54,
+          "x": 181,
+          "y": 344,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "731d38a1-669f-4b3c-8f7f-760699ca7cd4",
+          "width": 54,
+          "x": 793,
+          "y": 241,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "4b21e410-524c-4120-859b-3509493adc46",
+          "width": 54,
+          "x": 61,
+          "y": 544,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "50d5af73-4c33-4b4a-a52b-1a22bcdab4fa",
+          "width": 54,
+          "x": 1175,
+          "y": 547,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "9b48b93d-2446-4bff-9e7d-53ef39c32c03",
+          "width": 54,
+          "x": 593,
+          "y": 90,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "be91543a-15d5-4a97-abf5-ff81fd1650bb",
+          "width": 54,
+          "x": 179,
+          "y": 88,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 843,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FundoGame",
+          "persistentUuid": "dba976a6-def8-4548-9477-5005318ea598",
+          "width": 1303,
+          "x": -13,
+          "y": -59,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -736,158 +1913,9 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 60,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Player1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "MultiplayerObject",
-              "type": "Multiplayer::MultiplayerObjectBehavior",
-              "playerNumber": 1,
-              "actionOnPlayerDisconnect": "DestroyObject"
-            },
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "useRepeatedJump": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Right",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Right3",
-                      "points": [
-                        {
-                          "name": "NameTag",
-                          "x": 32,
-                          "y": -32
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 32
-                          },
-                          {
-                            "x": 0,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Left",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Right2",
-                      "points": [
-                        {
-                          "name": "NameTag",
-                          "x": 32,
-                          "y": -32
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 32
-                          },
-                          {
-                            "x": 0,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "assetStoreId": "",
@@ -905,456 +1933,6 @@
               "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Player2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "MultiplayerObject",
-              "type": "Multiplayer::MultiplayerObjectBehavior",
-              "playerNumber": 2,
-              "actionOnPlayerDisconnect": "DestroyObject"
-            },
-            {
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "name": "PlatformerObject",
-              "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "useLegacyTrajectory": false,
-              "useRepeatedJump": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Right",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Right4",
-                      "points": [
-                        {
-                          "name": "NameTag",
-                          "x": 32,
-                          "y": -32
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 32
-                          },
-                          {
-                            "x": 0,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Left",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Left",
-                      "points": [
-                        {
-                          "name": "NameTag",
-                          "x": 32,
-                          "y": -32
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 32
-                          },
-                          {
-                            "x": 0,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Player3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "MultiplayerObject",
-              "type": "Multiplayer::MultiplayerObjectBehavior",
-              "playerNumber": 3,
-              "actionOnPlayerDisconnect": "DestroyObject"
-            },
-            {
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "name": "PlatformerObject",
-              "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "useLegacyTrajectory": false,
-              "useRepeatedJump": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Right",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
-                      "points": [
-                        {
-                          "name": "NameTag",
-                          "x": 32,
-                          "y": -32
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 32
-                          },
-                          {
-                            "x": 0,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Left",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Left2",
-                      "points": [
-                        {
-                          "name": "NameTag",
-                          "x": 32,
-                          "y": -32
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 32
-                          },
-                          {
-                            "x": 0,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Player4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "MultiplayerObject",
-              "type": "Multiplayer::MultiplayerObjectBehavior",
-              "playerNumber": 4,
-              "actionOnPlayerDisconnect": "DestroyObject"
-            },
-            {
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "name": "PlatformerObject",
-              "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "useLegacyTrajectory": false,
-              "useRepeatedJump": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Right",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite4",
-                      "points": [
-                        {
-                          "name": "NameTag",
-                          "x": 32,
-                          "y": -32
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 32
-                          },
-                          {
-                            "x": 0,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Left",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
-                      "points": [
-                        {
-                          "name": "NameTag",
-                          "x": 32,
-                          "y": -32
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 32
-                          },
-                          {
-                            "x": 0,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -1379,7 +1957,7 @@
           "string": "Player 1",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 20,
+          "characterSize": 10,
           "color": {
             "b": 0,
             "g": 0,
@@ -1403,7 +1981,8 @@
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 10,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         },
@@ -1428,7 +2007,7 @@
           "string": "Player 2",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 20,
+          "characterSize": 10,
           "color": {
             "b": 0,
             "g": 0,
@@ -1452,7 +2031,8 @@
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 10,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         },
@@ -1477,7 +2057,7 @@
           "string": "Player 3",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 20,
+          "characterSize": 10,
           "color": {
             "b": 0,
             "g": 0,
@@ -1501,7 +2081,8 @@
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 10,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         },
@@ -1526,7 +2107,7 @@
           "string": "Player 4",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 20,
+          "characterSize": 10,
           "color": {
             "b": 0,
             "g": 0,
@@ -1550,9 +2131,192 @@
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 10,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Spikes",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 38
+                          },
+                          {
+                            "x": 0,
+                            "y": 38
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Mensageiro",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FundoGame",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "22587a26-75d6-44e6-bcbc-60d677beba80.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1574,19 +2338,16 @@
             "objectName": "Player4NameTag"
           },
           {
-            "objectName": "Player1"
-          },
-          {
-            "objectName": "Player2"
-          },
-          {
-            "objectName": "Player3"
-          },
-          {
-            "objectName": "Player4"
-          },
-          {
             "objectName": "Floor"
+          },
+          {
+            "objectName": "Spikes"
+          },
+          {
+            "objectName": "Mensageiro"
+          },
+          {
+            "objectName": "FundoGame"
           }
         ]
       },
@@ -2275,7 +3036,7 @@
                         "value": "MettreAutourPos"
                       },
                       "parameters": [
-                        "Player1NameTag",
+                        "Player4NameTag",
                         "Player4.PointX(\"NameTag\")",
                         "Player4.PointY(\"NameTag\")",
                         "0",
@@ -2289,6 +3050,230 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 255,
+          "colorG": 255,
+          "colorR": 255,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Colisions",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player1",
+                    "Spikes",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Multiplayer::LeaveGameLobby"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lobby\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player2",
+                    "Spikes",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Multiplayer::LeaveGameLobby"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lobby\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player3",
+                    "Spikes",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Multiplayer::LeaveGameLobby"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lobby\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player4",
+                    "Spikes",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Multiplayer::LeaveGameLobby"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lobby\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Mensageiro"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Jogadores",
+                    "Mensageiro",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Multiplayer::SendMessage"
+                  },
+                  "parameters": [
+                    "\"Batata\"",
+                    "\"gosto de batata\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Multiplayer::HasMessageBeenReceived"
+              },
+              "parameters": [
+                "\"Batata\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Números",
+                "Text",
+                "=",
+                "Multiplayer::MessageData(\"Batata\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -3573,12 +4558,27 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "extraInformation": [
-                "Idle",
-                "Hovered",
-                "PressedInside",
-                "PressedOutside",
-                "Validated"
+              "choices": [
+                {
+                  "label": "Idle",
+                  "value": "Idle"
+                },
+                {
+                  "label": "Hovered",
+                  "value": "Hovered"
+                },
+                {
+                  "label": "PressedInside",
+                  "value": "PressedInside"
+                },
+                {
+                  "label": "PressedOutside",
+                  "value": "PressedOutside"
+                },
+                {
+                  "label": "Validated",
+                  "value": "Validated"
+                }
               ],
               "hidden": true,
               "name": "State"
@@ -3680,6 +4680,7 @@
                 "textAlignment": "center",
                 "verticalTextAlignment": "center",
                 "characterSize": 20,
+                "lineHeight": 0,
                 "color": "0;0;0"
               }
             },
@@ -5079,9 +6080,15 @@
               "value": "",
               "type": "Choice",
               "label": "",
-              "extraInformation": [
-                "Label.Text=LabelText",
-                "BitmapLabel.Text=LabelText"
+              "choices": [
+                {
+                  "label": "Label.Text=LabelText",
+                  "value": "Label.Text=LabelText"
+                },
+                {
+                  "label": "BitmapLabel.Text=LabelText",
+                  "value": "BitmapLabel.Text=LabelText"
+                }
               ],
               "hidden": true,
               "name": "_PropertyMapping"
@@ -5149,6 +6156,7 @@
                     "textAlignment": "center",
                     "verticalTextAlignment": "center",
                     "characterSize": 60,
+                    "lineHeight": 0,
                     "color": "111;38;16"
                   }
                 },
@@ -5391,6 +6399,320 @@
                   "layer": "",
                   "name": "Label",
                   "persistentUuid": "aa4bd569-b00c-44e5-8b4c-5fb6742d5bcb",
+                  "width": 240,
+                  "x": 8,
+                  "y": 48,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ]
+            },
+            {
+              "areaMaxX": 256,
+              "areaMaxY": 106,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "assetStoreAssetId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
+              "assetStoreOriginalName": "Blue Button",
+              "name": "Blue Button",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "bold": false,
+                  "italic": false,
+                  "name": "Label",
+                  "smoothed": true,
+                  "type": "TextObject::Text",
+                  "underlined": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "string": "Button",
+                  "font": "",
+                  "textAlignment": "center",
+                  "characterSize": 60,
+                  "color": {
+                    "b": 99,
+                    "g": 69,
+                    "r": 28
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "Button",
+                    "font": "",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "center",
+                    "characterSize": 60,
+                    "lineHeight": 0,
+                    "color": "28;69;99"
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 32,
+                  "height": 106,
+                  "leftMargin": 16,
+                  "name": "Idle",
+                  "rightMargin": 16,
+                  "texture": "Blue Button_Idle.png",
+                  "tiled": false,
+                  "topMargin": 16,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 256,
+                  "variables": [
+                    {
+                      "folded": true,
+                      "name": "State",
+                      "type": "string",
+                      "value": "Idle"
+                    }
+                  ],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ButtonFSM",
+                      "type": "PanelSpriteButton::ButtonFSM",
+                      "serializedBehavior": {
+                        "name": "ButtonFSM",
+                        "type": "PanelSpriteButton::ButtonFSM",
+                        "ShouldCheckHovering": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 32,
+                  "height": 106,
+                  "leftMargin": 16,
+                  "name": "Hovered",
+                  "rightMargin": 16,
+                  "texture": "Blue Button_Hovered.png",
+                  "tiled": false,
+                  "topMargin": 16,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 256,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "Tween",
+                      "type": "Tween::TweenBehavior",
+                      "serializedBehavior": {
+                        "name": "Tween",
+                        "type": "Tween::TweenBehavior"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 16,
+                  "height": 106,
+                  "leftMargin": 16,
+                  "name": "Pressed",
+                  "rightMargin": 16,
+                  "texture": "Blue Button_Pressed.png",
+                  "tiled": false,
+                  "topMargin": 32,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 256,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "BitmapLabel",
+                  "type": "BitmapText::BitmapTextObject",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "content": {
+                    "text": "Text",
+                    "opacity": 255,
+                    "scale": 1,
+                    "fontSize": 20,
+                    "tint": "255;255;255",
+                    "bitmapFontResourceName": "",
+                    "textureAtlasResourceName": "",
+                    "align": "center",
+                    "verticalTextAlignment": "center"
+                  }
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "Label"
+                  },
+                  {
+                    "objectName": "Idle"
+                  },
+                  {
+                    "objectName": "Hovered"
+                  },
+                  {
+                    "objectName": "Pressed"
+                  },
+                  {
+                    "objectName": "BitmapLabel"
+                  }
+                ]
+              },
+              "objectsGroups": [
+                {
+                  "name": "Background",
+                  "objects": [
+                    {
+                      "name": "Idle"
+                    },
+                    {
+                      "name": "Hovered"
+                    },
+                    {
+                      "name": "Pressed"
+                    }
+                  ]
+                },
+                {
+                  "name": "Labels",
+                  "objects": [
+                    {
+                      "name": "Label"
+                    },
+                    {
+                      "name": "BitmapLabel"
+                    }
+                  ]
+                }
+              ],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "depth": 1,
+                  "height": 64,
+                  "layer": "",
+                  "name": "Idle",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 64,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 81,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Label",
+                  "persistentUuid": "13c57e74-5889-490a-b3fe-4856e2ee6a18",
                   "width": 240,
                   "x": 8,
                   "y": 48,
