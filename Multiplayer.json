@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 242,
+    "build": 244,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -596,6 +596,174 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview2.png\",\"extension\":\".png\"}",
         "name": "77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/FireBall.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/FireBall.png\"}",
+        "name": "FireBall",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Esfinge1-fechada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Esfinge1-fechada.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Normal.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Normal.png\"}",
+        "name": "Normal",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Esfinge1-aberta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Esfinge1-aberta.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/FireBall2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/FireBall2.png\"}",
+        "name": "FireBall2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Normal2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Normal2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/FireBall3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "FireBall3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "c1980136-6536-4f98-a8ed-d369bc373865.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c1980136-6536-4f98-a8ed-d369bc373865.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Captura de tela 2025-10-25 120342.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captura de tela 2025-10-25 120342.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Captura de tela 2025-10-25 120529.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Captura de tela 2025-10-25 120529.png\",\"extension\":\".png\"}",
+        "name": "Captura de tela 2025-10-25 120529.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download-removebg-preview (17).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download-removebg-preview (17).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Captura de tela 2025-10-25 120529.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Captura de tela 2025-10-25 120529",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Captura de tela 2025-10-25 121724.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captura de tela 2025-10-25 121724.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Captura_de_tela_2025-10-25_121724-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captura_de_tela_2025-10-25_121724-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "thsxmr3vrsp31-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "thsxmr3vrsp31-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/thsxmr3vrsp31-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "thsxmr3vrsp31-removebg-preview",
         "smoothed": true,
         "userAdded": false
       }
@@ -1245,7 +1413,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.6455105703311478,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -1891,8 +2060,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36732575450588817,
-        "windowMask": false
+        "zoomFactor": 0.08258739885902554,
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -1936,8 +2106,8 @@
           "name": "Player1",
           "persistentUuid": "536b80cf-e812-41f5-ac66-d391f65a000e",
           "width": 30,
-          "x": 622,
-          "y": -3365,
+          "x": 389,
+          "y": 661,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2088,38 +2258,6 @@
           "x": -1503,
           "y": 396,
           "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Mensageiro",
-          "persistentUuid": "dabdd119-4f88-427f-9899-2a23d545b3cc",
-          "width": 0,
-          "x": -1545,
-          "y": 162,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Números",
-          "persistentUuid": "8c384fff-fadc-4b60-859f-94e0153580e8",
-          "width": 0,
-          "x": -1613,
-          "y": 61,
-          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3879,32 +4017,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 902.625,
+          "depth": 1,
+          "height": 1019,
           "keepRatio": true,
           "layer": "",
           "name": "Fundo6",
           "persistentUuid": "4e39455d-dfd8-4a3d-84bc-7681946fe724",
           "width": 1305,
           "x": 13,
-          "y": -4101,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 902.625,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Fundo6",
-          "persistentUuid": "54abd0ce-c4e5-41f3-a66d-4770bf2366bb",
-          "width": 1305,
-          "x": 1301,
-          "y": -4101,
+          "y": -4217,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3914,14 +4035,31 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 903,
+          "height": 1022,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fundo6",
+          "persistentUuid": "54abd0ce-c4e5-41f3-a66d-4770bf2366bb",
+          "width": 1305,
+          "x": 1301,
+          "y": -4220,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1029,
           "keepRatio": true,
           "layer": "",
           "name": "Fundo6",
           "persistentUuid": "1bbc5896-f658-419d-86a9-2bc7a342afdf",
           "width": 1393,
           "x": -1351,
-          "y": -4101,
+          "y": -4227,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3937,8 +4075,8 @@
           "name": "Esfinge_esquerda_6",
           "persistentUuid": "f861494a-24f9-4d99-b260-822f45f7b0d1",
           "width": 183,
-          "x": 1122,
-          "y": -3466,
+          "x": 172,
+          "y": -3682,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -3954,8 +4092,8 @@
           "name": "Esfinge_direita_6",
           "persistentUuid": "0e850783-ce36-4e90-9313-cc579ff55e1e",
           "width": 178,
-          "x": 142,
-          "y": -3749,
+          "x": 1150,
+          "y": -3596,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -4059,6 +4197,224 @@
           "x": 142,
           "y": -3991,
           "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 189,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Esfinge_esquerda_6",
+          "persistentUuid": "9eb946f7-b005-4124-8853-4ddef0d6df6e",
+          "width": 183,
+          "x": 146,
+          "y": -3380,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 183,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Esfinge_direita_6",
+          "persistentUuid": "eb791bc1-5bc5-4f2b-a495-0cf8534cf44f",
+          "width": 178,
+          "x": 1191,
+          "y": -4082,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fundo7",
+          "persistentUuid": "42f356b1-ac6d-41eb-a8cc-61d040e68b4d",
+          "width": 0,
+          "x": -124,
+          "y": -5240,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fundo7",
+          "persistentUuid": "c64d298c-1950-4a8a-b5a9-9f4087f71eb9",
+          "width": 0,
+          "x": -1651,
+          "y": -5239,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fundo7",
+          "persistentUuid": "88488c27-d579-4c9e-8202-c4ce04ef37fd",
+          "width": 0,
+          "x": 1389,
+          "y": -5234,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor7",
+          "persistentUuid": "f833af4d-c734-4266-a5f7-979a5d3934eb",
+          "width": 1511,
+          "x": -120,
+          "y": -4257,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor7",
+          "persistentUuid": "03f7c4b6-671e-455f-997a-dc51bdd364b1",
+          "width": 1511,
+          "x": -110,
+          "y": -4512,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor7",
+          "persistentUuid": "85a378c6-a066-4a24-920e-6f7b7c0eec13",
+          "width": 1511,
+          "x": -94,
+          "y": -4779,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor7",
+          "persistentUuid": "53ed5a1b-d5ea-4714-bc12-0e4f391c861d",
+          "width": 1511,
+          "x": -105,
+          "y": -5050,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 229,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Escada_7",
+          "persistentUuid": "da1f7bcb-b065-4b77-9f12-84689b9cd9b1",
+          "width": 57,
+          "x": -68,
+          "y": -4475,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 241,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Escada_7",
+          "persistentUuid": "1d4dd571-aa82-422a-b086-d40cdb1d71ad",
+          "width": 57,
+          "x": 1299,
+          "y": -4741,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 245,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Escada_7",
+          "persistentUuid": "1ea343ae-ae8c-447a-a8e5-6c64a383bb5d",
+          "width": 57,
+          "x": -64,
+          "y": -5011,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Robo_7",
+          "persistentUuid": "b9fd1b4d-58dd-4ce2-87bd-5e2c81d96c02",
+          "width": 134,
+          "x": -47,
+          "y": -4614,
+          "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4378,67 +4734,6 @@
                           {
                             "x": 0,
                             "y": 27
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Mensageiro",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite7",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
                           }
                         ]
                       ]
@@ -5437,10 +5732,10 @@
               "OldY": 2.0247e-320
             },
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -5522,10 +5817,10 @@
               "OldY": 2.0247e-320
             },
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -5883,10 +6178,10 @@
               "OldY": 2.0247e-320
             },
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -5968,10 +6263,10 @@
               "OldY": 2.0247e-320
             },
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -6129,6 +6424,61 @@
           ],
           "animations": [
             {
+              "name": "Normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Normal2",
+                      "points": [
+                        {
+                          "name": "FireBall",
+                          "x": 64,
+                          "y": 36
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50.5,
+                        "y": 51
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 101
+                          },
+                          {
+                            "x": 0,
+                            "y": 101
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "FireBall",
               "useMultipleDirections": false,
               "directions": [
@@ -6139,18 +6489,18 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "5214b14f-f838-4675-baaf-3fc60bc0bf41",
+                      "image": "FireBall3",
                       "points": [
                         {
                           "name": "FireBall",
-                          "x": 323,
-                          "y": 219
+                          "x": 68,
+                          "y": 40
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 457,
-                        "y": 471
+                        "x": 52,
+                        "y": 51
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6165,58 +6515,16 @@
                             "y": 0
                           },
                           {
-                            "x": 914,
+                            "x": 101,
                             "y": 0
                           },
                           {
-                            "x": 914,
-                            "y": 942
+                            "x": 101,
+                            "y": 101
                           },
                           {
                             "x": 0,
-                            "y": 942
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview.png",
-                      "points": [
-                        {
-                          "name": "FireBall",
-                          "x": 323,
-                          "y": 219
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 457,
-                        "y": 471
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 914,
-                            "y": 0
-                          },
-                          {
-                            "x": 914,
-                            "y": 942
-                          },
-                          {
-                            "x": 0,
-                            "y": 942
+                            "y": 101
                           }
                         ]
                       ]
@@ -6269,6 +6577,61 @@
           ],
           "animations": [
             {
+              "name": "Normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Normal",
+                      "points": [
+                        {
+                          "name": "FireBall",
+                          "x": 64,
+                          "y": 36
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50.5,
+                        "y": 51
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 101
+                          },
+                          {
+                            "x": 0,
+                            "y": 101
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "FireBall",
               "useMultipleDirections": false,
               "directions": [
@@ -6279,18 +6642,18 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "5214b14f-f838-4675-baaf-3fc60bc0bf43",
+                      "image": "FireBall2",
                       "points": [
                         {
                           "name": "FireBall",
-                          "x": 590,
-                          "y": 224.5
+                          "x": 68,
+                          "y": 39
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 457,
-                        "y": 471
+                        "x": 52,
+                        "y": 51
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6305,34 +6668,52 @@
                             "y": 0
                           },
                           {
-                            "x": 914,
+                            "x": 101,
                             "y": 0
                           },
                           {
-                            "x": 914,
-                            "y": 942
+                            "x": 101,
+                            "y": 101
                           },
                           {
                             "x": 0,
-                            "y": 942
+                            "y": 101
                           }
                         ]
                       ]
-                    },
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Fundo7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "77159371-eef8-4524-ab7f-1c1529d2ac4c-removebg-preview2.png",
-                      "points": [
-                        {
-                          "name": "FireBall",
-                          "x": 590,
-                          "y": 224.5
-                        }
-                      ],
+                      "image": "c1980136-6536-4f98-a8ed-d369bc373865.png",
+                      "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 457,
-                        "y": 471
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6347,16 +6728,199 @@
                             "y": 0
                           },
                           {
-                            "x": 914,
+                            "x": 1536,
                             "y": 0
                           },
                           {
-                            "x": 914,
-                            "y": 942
+                            "x": 1536,
+                            "y": 1024
                           },
                           {
                             "x": 0,
-                            "y": 942
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Floor7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite25",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Escada_7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Captura de tela 2025-10-25 120529",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captura de tela 2025-10-25 120529",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 57,
+                            "y": 0
+                          },
+                          {
+                            "x": 57,
+                            "y": 147
+                          },
+                          {
+                            "x": 0,
+                            "y": 147
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Robo_7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "thsxmr3vrsp31-removebg-preview",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "thsxmr3vrsp31-removebg-preview",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 269,
+                            "y": 1
+                          },
+                          {
+                            "x": 269,
+                            "y": 201
+                          },
+                          {
+                            "x": 1,
+                            "y": 201
                           }
                         ]
                       ]
@@ -6411,6 +6975,9 @@
             "objectName": "Floor6_2"
           },
           {
+            "objectName": "Floor7"
+          },
+          {
             "objectName": "Floor_Final"
           },
           {
@@ -6453,22 +7020,28 @@
             "objectName": "Fundo6"
           },
           {
+            "objectName": "Fundo7"
+          },
+          {
             "objectName": "Esfinge_esquerda_6"
           },
           {
             "objectName": "Esfinge_direita_6"
           },
           {
+            "objectName": "Robo_7"
+          },
+          {
             "objectName": "FireBall6"
+          },
+          {
+            "objectName": "Escada_7"
           },
           {
             "objectName": "Trofeu"
           },
           {
             "objectName": "Invisivel"
-          },
-          {
-            "objectName": "Mensageiro"
           }
         ]
       },
@@ -6495,22 +7068,39 @@
           "colorG": 0,
           "colorR": 0,
           "creationTime": 0,
-          "folded": true,
           "name": "Players",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"camera1\""
+                  ]
+                }
+              ]
             },
             {
               "colorB": 0,
               "colorG": 0,
               "colorR": 255,
               "creationTime": 0,
-              "folded": true,
               "name": "Player 1",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -6585,17 +7175,7 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Multiplayer::MultiplayerObjectBehavior::IsObjectOwnedByCurrentPlayer"
-                      },
-                      "parameters": [
-                        "Player1",
-                        "MultiplayerObject"
-                      ]
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
@@ -6676,7 +7256,6 @@
               "colorG": 0,
               "colorR": 1,
               "creationTime": 0,
-              "folded": true,
               "name": "Player 2",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8486,27 +9065,9 @@
               "comment": "Fase 6"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Esfinges",
-                    "Animation",
-                    "=",
-                    "\"FireBall\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "CompareTimer"
@@ -8517,12 +9078,266 @@
                     ">=",
                     "3"
                   ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Esfinges",
+                        ">",
+                        "Player1.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"FireBall\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Esfinges",
+                        "Animation",
+                        "=",
+                        "\"FireBall\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                      },
+                      "parameters": [
+                        "Esfinges",
+                        "FireBullet",
+                        "Esfinges.PointX(\"FireBall\")",
+                        "Esfinges.PointY(\"FireBall\")",
+                        "FireBall6",
+                        "0",
+                        "Esfinges.CenterY()",
+                        "500",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "FireBall6",
+                        "Resizable",
+                        "*",
+                        "0.06"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "FireBall6",
+                        "Resizable",
+                        "*",
+                        "0.06"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Esfinges",
+                        "Animation",
+                        "=",
+                        "\"Normal\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Multiplayer::LeaveGameLobby"
+                      },
+                      "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "FireBall6",
+                        ""
+                      ]
+                    }
+                  ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Esfinges",
+                        "<",
+                        "Player1.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"FireBall\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Esfinges",
+                        "Animation",
+                        "=",
+                        "\"FireBall\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                      },
+                      "parameters": [
+                        "Esfinges",
+                        "FireBullet",
+                        "Esfinges.PointX(\"FireBall\")",
+                        "Esfinges.PointY(\"FireBall\")",
+                        "FireBall6",
+                        "4000",
+                        "Esfinges.CenterY()",
+                        "500",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "FireBall6",
+                        "Flippable",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "FireBall6",
+                        "Resizable",
+                        "*",
+                        "0.06"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "FireBall6",
+                        "Resizable",
+                        "*",
+                        "0.06"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Esfinges",
+                        "Animation",
+                        "=",
+                        "\"Normal\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Multiplayer::LeaveGameLobby"
+                      },
+                      "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "FireBall6",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "DepartScene"
                   },
-                  "parameters": []
+                  "parameters": [
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -8534,88 +9349,8 @@
                     "",
                     "\"FireBall\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "FireBullet::FireBullet::FireTowardPosition"
-                  },
-                  "parameters": [
-                    "Esfinges",
-                    "FireBullet",
-                    "Esfinges.PointX(\"FireBall\")",
-                    "Esfinges.PointY(\"FireBall\")",
-                    "FireBall6",
-                    "MouseX()",
-                    "MouseY()",
-                    "500",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
-                  },
-                  "parameters": [
-                    "FireBall6",
-                    "Resizable",
-                    "*",
-                    "0.4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
-                  },
-                  "parameters": [
-                    "FireBall6",
-                    "Resizable",
-                    "*",
-                    "0.4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "FireBall6",
-                    "+",
-                    "45"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "FireBall6",
-                    ""
-                  ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "Esfinges",
-                    "Animation"
-                  ]
-                }
-              ],
-              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8784,12 +9519,6 @@
                     "FireBall6",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Multiplayer::LeaveGameLobby"
-                  },
-                  "parameters": []
                 },
                 {
                   "type": {
@@ -10802,6 +11531,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -12286,7 +13016,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 256,
@@ -12600,7 +13331,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
